@@ -11,7 +11,8 @@
 		<property name="hibernate.connection.username">b660d00a5a61c4</property>
 		<property name="hibernate.connection.password">ac01216369eb7ea</property>
 		<property name="hibernate.connection.url">jdbc:mysql://us-cdbr-iron-east-05.cleardb.net:3306/heroku_73dbfea7506b05a</property>
-		
+                
+                                		
 		<property name="hibernate.c3p0.min_size">5</property>
 		<property name="hibernate.c3p0.max_size">20</property>
 		<property name="hibernate.c3p0.acquire_increment">2</property>
