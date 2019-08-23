@@ -123,7 +123,20 @@
 				<configuration>
 					<path>/</path>
 				</configuration>
-			</plugin>
+			</plugin>    
+                        
+                      
+                        <!-- Embedded glassfish required for testing war 
+                        <plugin>
+                            <groupId>org.glassfish.maven.plugin</groupId>
+                            <artifactId>maven-glassfish-plugin</artifactId>
+                            <version>2.1</version>
+                            <configuration>
+                                <path>/</path>
+                            </configuration>
+                        </plugin>                  --> 
+                        
+                        
 		</plugins>
 	</build>
     <name>metaEducativa</name>
