@@ -10,10 +10,9 @@
 
         <link href="<c:url value="/resources/css/bootstrap.css"/>" rel="stylesheet" >
         <link href="<c:url value="/resources/css/style.css"/>" rel="stylesheet" >
-        <script href="<c:url value="/resources/js/jquery.min.js"/>" rel="stylesheet" ></script>
-        <!--webfonts-->
-        <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic|PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-        <!--//webfonts-->
+        <link href="<c:url value="/resources/bootstrap/css/bootstrap.min.css"/>" rel="stylesheet" >
+        
+        
     </head>
     <body>
 
@@ -22,53 +21,28 @@
             <div class="top-header">
                 <div class="container">
                     <div class="logo">
-                        <a href="index.html"><h1>Meta<span>Educativa</span></h1></a>
+                        <a href="home"><h1>Meta<span>Educativa</span></h1></a>
                     </div>
                     <div class="top-menu">
                         <span class="menu"> </span>
                         <ul class="cl-effect-16">
-                            <li><a class="active" href="index.html" data-hover="Home">Home</a></li>
-                            <li><a  href="about.html" data-hover="About">Nosotros</a></li>
-                            <li><a href="teachers.html" data-hover="Teachers">Cursos</a></li>
-                            <li><a href="gallery.html" data-hover="Gallery">Becas</a></li>
-                            <li><a href="404.html" data-hover="blog">Noticias</a></li>
-                            <li><a href="contact.html" data-hover="Contact">Contact</a></li>
+                            <li><a class="active" href="home" data-hover="Home">Home</a></li>
+                            <li><a  href=" " data-hover="Curso">Curso</a></li>
+                            <li><a href="becas" data-hover="Becas">Becas</a></li>
+                            <li><a href=" " data-hover="Noticias">Noticias</a></li>
+                            <!--<li><a href="404.html" data-hover="blog">Noticias</a></li>-->
+                            <li><a href=" " data-hover="Contact">Contact</a></li>
                             <div class="clearfix"></div>
                         </ul>
                     </div>
                     <!-- script-for-menu -->
-                    <script>
-                            $("span.menu").click(function(){
-                                    $(".top-menu ul").slideToggle("slow" , function(){
-                                    });
-                            });
-                    </script>
                     <!-- script-for-menu -->
                     <div class="clearfix"> </div>
                 </div>
             </div>
             <!--- banner Slider starts Here --->
-            <script src="js/responsiveslides.min.js"></script>
-            <script>
-               // You can also use "$(window).load(function() {"
-               $(function () {
-                 // Slideshow 4
-                 $("#slider4").responsiveSlides({
-                   auto: true,
-                   pager: true,
-                     nav:false,
-                   speed: 500,
-                   namespace: "callbacks",
-                   before: function () {
-                     $('.events').append("<li>before event fired.</li>");
-                   },
-                   after: function () {
-                     $('.events').append("<li>after event fired.</li>");
-                   }
-                 });
-			
-               });
-            </script>
+            
+			 
             <!----//End-slider-script---->
             <!-- Slideshow 4 -->
             <div  id="top" class="callbacks_container">
@@ -106,7 +80,7 @@
             <div class="clearfix"> </div>
         </div>
         <!----- //End-slider---->
-        
+
         <!----start-slide-bottom--->
         <div class="slide-bottom">
             <div class="slide-bottom-grids">
@@ -124,7 +98,7 @@
             </div>
         </div>
         <!--services-->
-        
+
         <!--services-->
         <div class="service-section">
             <div class="col-md-7 service-section-grids">
@@ -175,7 +149,43 @@
         </div>
         <!--/services-->
 
-        <p> The time on the server is ${serverTime}. </p>
-        <a href="/editUser">IR a Usuario</a>
+        <div class="container">
+  <h2>Dynamic Tabs</h2>
+  <p>To make the tabs toggleable, add the data-toggle="tab" attribute to each link. Then add a .tab-pane class with a unique ID for every tab and wrap them inside a div element with class .tab-content.</p>
+
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+    <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+    <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+    <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>HOME</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Menu 1</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Menu 2</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <h3>Menu 3</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+  </div>
+</div>
+        
+        <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+        
+        <script src="resources/js/jquery.min.js"></script>
+        <script src="resources/js/responsiveslides.min.js"></script>
+        <script src="resources/js/easyResponsiveTabs.js"></script>
+        <script src="resources/js/jquery.swipebox.min.js"></script>
+        <script src="resources/js/app.js"></script>
     </body>
 </html>

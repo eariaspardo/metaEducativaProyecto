@@ -3,17 +3,15 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Meta Educativa</title>
+        <title>Index</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 
         <link href="<c:url value="/resources/css/bootstrap.css"/>" rel="stylesheet" >
         <link href="<c:url value="/resources/css/style.css"/>" rel="stylesheet" >
-        <script href="<c:url value="/resources/js/jquery.min.js"/>" rel="stylesheet" ></script>
-        <!--webfonts-->
-        <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic|PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-        <!--//webfonts-->
+        <link href="<c:url value="/resources/bootstrap/css/bootstrap.min.css"/>" rel="stylesheet" >
+        
     </head>
     <body>
 
@@ -22,53 +20,28 @@
             <div class="top-header">
                 <div class="container">
                     <div class="logo">
-                        <a href="index.html"><h1>Meta<span>Educativa</span></h1></a>
+                        <a href="home"><h1>Meta<span>Educativa</span></h1></a>
                     </div>
                     <div class="top-menu">
                         <span class="menu"> </span>
                         <ul class="cl-effect-16">
-                            <li><a class="active" href="index.html" data-hover="Home">Home</a></li>
-                            <li><a  href="about.html" data-hover="About">Nosotros</a></li>
-                            <li><a href="teachers.html" data-hover="Teachers">Cursos</a></li>
-                            <li><a href="gallery.html" data-hover="Gallery">Becas</a></li>
-                            <li><a href="404.html" data-hover="blog">Noticias</a></li>
-                            <li><a href="contact.html" data-hover="Contact">Contact</a></li>
+                            <li><a class="active" href="home" data-hover="Home">Home</a></li>
+                            <li><a  href=" " data-hover="Curso">Curso</a></li>
+                            <li><a href="becas" data-hover="Becas">Becas</a></li>
+                            <li><a href=" " data-hover="Noticias">Noticias</a></li>
+                            <!--<li><a href="404.html" data-hover="blog">Noticias</a></li>-->
+                            <li><a href=" " data-hover="Contact">Contact</a></li>
                             <div class="clearfix"></div>
                         </ul>
                     </div>
                     <!-- script-for-menu -->
-                    <script>
-                            $("span.menu").click(function(){
-                                    $(".top-menu ul").slideToggle("slow" , function(){
-                                    });
-                            });
-                    </script>
                     <!-- script-for-menu -->
                     <div class="clearfix"> </div>
                 </div>
             </div>
             <!--- banner Slider starts Here --->
-            <script src="js/responsiveslides.min.js"></script>
-            <script>
-               // You can also use "$(window).load(function() {"
-               $(function () {
-                 // Slideshow 4
-                 $("#slider4").responsiveSlides({
-                   auto: true,
-                   pager: true,
-                     nav:false,
-                   speed: 500,
-                   namespace: "callbacks",
-                   before: function () {
-                     $('.events').append("<li>before event fired.</li>");
-                   },
-                   after: function () {
-                     $('.events').append("<li>after event fired.</li>");
-                   }
-                 });
-			
-               });
-            </script>
+            
+			 
             <!----//End-slider-script---->
             <!-- Slideshow 4 -->
             <div  id="top" class="callbacks_container">
@@ -107,8 +80,54 @@
         </div>
         <!----- //End-slider---->
 
-        <p> The time on the server is ${serverTime}. </p>
-        <a href="/home">IR al Home</a>
-        <a href="/becas">IR a Becas</a>
+        <!----start-slide-bottom--->
+        <div class="slide-bottom">
+            <div class="slide-bottom-grids">
+                <div class="container">
+                    <div class="col-md-6 slide-bottom-grid">
+                        <h3>Bienvenido!</h3>
+                        <p>La educación siempre ha sido importante para el desarrollo, pero ha adquirido mayor relevancia en el mundo de hoy que vive profundas transformaciones, motivadas en parte por el vertiginoso avance de la ciencia y sus aplicaciones, así como por el no menos acelerado desarrollo de los medios y las tecnologías de la información.</p>
+                    </div>
+                    <div class="col-md-6 slide-bottom-grid">
+                        <h3>Nuestra Mision</h3>
+                        <p>Ruelloribus eget elemetum vel curleif end elit. for that matter even a relationship, for that matter even a relationship, Aean auctoetnliir pis terios. ante ipsummis fauulet utrice posere cubtsed leo pharetu nec augue. dui bibendum ornare elementum. In vel mi pellentesque.</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <!--services-->
+
+        <!--services-->
+        <div class="service-section">
+            <div class="service-section-grids">
+                <div class="container">          
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="https://www.coopebis.coop/wp-content/plugins/widgetkit/cache/INGRESE-AQUI-O-860771b0fc59d435a234cf556164548d.jpg">
+                        </div>  
+                        <div class="col-md-8">
+                            <div class="card" style="widt:100%">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ingrese su usuario Aqui</h5>
+                                    <label>Usuario</label>
+                                    <input type="text" class="form-control ds-input" placeholder="Usuario">
+                                    <label>Contraseña</label>
+                                    <input type="password" class="form-control ds-input" placeholder="Contraseña">
+                                    <a href="#" class="btn btn-outline-warning btn-block" style="margin-top: 20px;">Ingresar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <script src="resources/js/jquery.min.js"></script>
+        <script src="resources/js/responsiveslides.min.js"></script>
+        <script src="resources/js/easyResponsiveTabs.js"></script>
+        <script src="resources/js/jquery.swipebox.min.js"></script>
+        <script src="resources/js/app.js"></script>
     </body>
 </html>

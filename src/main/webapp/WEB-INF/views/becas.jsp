@@ -23,27 +23,26 @@
             <div class="top-header two">	
                 <div class="container">
                     <div class="logo">
-                        <a href="index.html"><h1>PRIMARY<span>School</span></h1></a>
+                        <a href="home"><h1>Meta<span>Educativa</span></h1></a>
                     </div>
-                    <!----start-top-nav---->
                     <div class="top-menu">
                         <span class="menu"> </span>
                         <ul class="cl-effect-16">
-                            <li><a href="index.html" data-hover="Home">Home</a></li>
-                            <li><a  href="about.html" data-hover="About">About</a></li>
-                            <li><a class="active" href="teachers.html" data-hover="Teachers">Teachers</a></li>
-                            <li><a href="gallery.html" data-hover="Gallery">Gallery</a></li>
-                            <li><a href="404.html" data-hover="blog">Blog</a></li>
-                            <li><a href="contact.html" data-hover="Contact">Contact</a></li>
+                            <li><a class="active" href="home" data-hover="Home">Home</a></li>
+                            <li><a  href=" " data-hover="Curso">Curso</a></li>
+                            <li><a href="becas" data-hover="Becas">Becas</a></li>
+                            <li><a href=" " data-hover="Noticias">Noticias</a></li>
+                            <!--<li><a href="404.html" data-hover="blog">Noticias</a></li>-->
+                            <li><a href=" " data-hover="Contact">Contact</a></li>
                             <div class="clearfix"></div>
                         </ul>
                     </div>
                     <!-- script-for-menu -->
                     <script>
-                            $("span.menu").click(function(){
-                                    $(".top-menu ul").slideToggle("slow" , function(){
-                                    });
+                        $("span.menu").click(function () {
+                            $(".top-menu ul").slideToggle("slow", function () {
                             });
+                        });
                     </script>
                     <!-- script-for-menu -->
                     <div class="clearfix"> </div>
@@ -168,36 +167,36 @@
 
         <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
         <script type="text/javascript">
-                $(document).ready(function () {
-                        $('#horizontalTab').easyResponsiveTabs({
+                        $(document).ready(function () {
+                            $('#horizontalTab').easyResponsiveTabs({
                                 type: 'default', //Types: default, vertical, accordion           
                                 width: 'auto', //auto or any width like 600px
                                 fit: true   // 100% fit in a container
+                            });
                         });
-                });
         </script>
         <!-- //activities -->
         <div class="member-section">
             <div class="container">
                 <div class="member-head">
-                    <h3>Our Teachers</h3>
-                    <p>2015 Board Members</p>
+                    <h3>Programas de Becas</h3>
+                    <p>Avisos de los nuevos programas de becasr</p>
                 </div>
                 <div class="members">
                     <div class="col-md-4 member-grids">
-                        <a href="#"> <img src="images/m2.jpg" class="img-responsive" alt="" /></a>
-                        <h5>President</h5>
+                        <a href="https://www.colfuturo.org/financiacion-para-posgrados-en-el-exterior"> <img src="resources/images/m2.jpg" class="img-responsive" alt="" /></a>
+                        <h5>Colfuturo</h5>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                     <div class="col-md-4 member-grids">
-                        <a href="#"> <img src="images/m3.jpg" class="img-responsive" alt="" /></a>
-                        <h5>Vice President</h5>
+                        <a href="https://portal.icetex.gov.co/Portal/Home/HomeEstudiante/becas/becas-para-estudios-en-el-exterior/becas-vigentes"> <img src="resources/images/m3.jpg" class="img-responsive" alt="" /></a>
+                        <h5>Icetex</h5>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 
                     </div>
                     <div class="col-md-4 member-grids">
-                        <a href="#"> <img src="images/m1.jpg" class="img-responsive" alt="" /></a>
-                        <h5>Chief of Staff</h5>
+                        <a href="http://www.eafit.edu.co/serpilopaga/Paginas/requisitos-reglamentos-ser-pilo-paga.aspx"> <img src="resources/images/m1.jpg" class="img-responsive" alt="" /></a>
+                        <h5>Ser Pilo Paga</h5>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                     <div class="clearfix"> </div>
@@ -205,71 +204,21 @@
             </div>
         </div>
     </div>
-    <!--/mid-bg-->
-    <div class="mid-bg">
-        <div class="container">
-            <div class="mid-section">
-                <h3>First Day at School!</h3>
-                <h4>ARE YOU READY ?</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text  and typesetting industry. Lorem Ipsum has been the industry's standard dummy  ever since the 1500s,</p>
-            </div>
-        </div>
-    </div>
-    <!--address-->
-    <div id="contact" class="address">
-        <div class="col-md-7 address-left">
-            <div class="products">
-                <h3>Classes</h3>
-                <ul>
-                    <li><a href="blog.html">Sports</a></li>
-                    <li><a href="blog.html">Music</a></li>
-                    <li><a href="blog.html">Dance</a></li>
-                </ul>
-            </div>
-            <div class="company-adout">
-                <h3>Learn</h3>
-                <ul>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="teachers.html">Teacher</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <div class="clearfix"></div>
-            <p>Creativity itself doesn't care at all about results - the only thing it craves is the process. 
-                Learn to love the process and let whatever happens next happen,<span>
-                    without fussing too much about it</span></p>
-        </div>
-        <div class="col-md-5 address-right">
-            <h3>Our Offices</h3>
-            <p>324 Main Street , 2012 Stundy</p>
-            <p>04 84 25 51 54</p>
-            <ul class="bottom">
-                <li>009 Street view, Office 21 4563 Paris</li>
-                <li>00 123 456 78</li>
-            </ul>
-            <ul>
-                <li>123, new street, 129907 New Yark</li>
-                <li>023 456 23456</li>
-                <li><a class="mail" href="mailto:info@example.com">123 int@example.com</a></li>
-            </ul>
-        </div>
-        <div class="clearfix"></div>
-    </div>
-    <!--//address-->
+
     <!----footer--->
     <div class="footer">
         <div class="container">
             <div class="copy">
-                <p>&copy; 2015 All Rights Reserved Design by <a href="http://w3layouts.com/">W3layouts</a> </p>
+                <p>&copy; 2019 All Rights Reserved <a href="https://www.ucatolica.edu.co/portal/">Universidad Catolica</a> </p>
             </div>
 
         </div>
     </div>
     <!--start-smoth-scrolling-->
     <script type="text/javascript">
-                                            jQuery(document).ready(function($) {
-                                                    $(".scroll").click(function(event){		
-                                                            event.preventDefault();
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
                 $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
             });
         });
@@ -293,9 +242,11 @@
     <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 
 
-    <p> The time on the server is ${serverTime}. </p>
-    <a href="/index">IR al Index</a>
-
+    <script src="resources/js/jquery.min.js"></script>
+    <script src="resources/js/responsiveslides.min.js"></script>
+    <script src="resources/js/easyResponsiveTabs.js"></script>
+    <script src="resources/js/jquery.swipebox.min.js"></script>
+    <script src="resources/js/app.js"></script>
 </body>
-    
+
 </html>
