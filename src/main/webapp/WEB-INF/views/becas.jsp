@@ -29,10 +29,10 @@
                         <span class="menu"> </span>
                         <ul class="cl-effect-16">
                             <li><a class="active" href="home" data-hover="Home">Home</a></li>
-                            <li><a  href=" " data-hover="Curso">Curso</a></li>
-                            <li><a href="becas" data-hover="Becas">Becas</a></li>
+                            <li><a  href="Primaria" data-hover="Primaria">Primaria</a></li>
+                            <li><a href="secundaria" data-hover="Secundaria">Secundaria</a></li>
+                            <li><a href="becas " data-hover="Becas">Becas</a></li>
                             <li><a href=" " data-hover="Noticias">Noticias</a></li>
-                            <!--<li><a href="404.html" data-hover="blog">Noticias</a></li>-->
                             <li><a href=" " data-hover="Contact">Contact</a></li>
                             <div class="clearfix"></div>
                         </ul>

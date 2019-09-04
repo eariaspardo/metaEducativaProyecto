@@ -27,10 +27,10 @@
                         <span class="menu"> </span>
                         <ul class="cl-effect-16">
                             <li><a class="active" href="home" data-hover="Home">Home</a></li>
-                            <li><a  href=" " data-hover="Curso">Curso</a></li>
-                            <li><a href="becas" data-hover="Becas">Becas</a></li>
+                            <li><a  href="Primaria" data-hover="Primaria">Primaria</a></li>
+                            <li><a href="secundaria" data-hover="Secundaria">Secundaria</a></li>
+                            <li><a href="becas " data-hover="Becas">Becas</a></li>
                             <li><a href=" " data-hover="Noticias">Noticias</a></li>
-                            <!--<li><a href="404.html" data-hover="blog">Noticias</a></li>-->
                             <li><a href=" " data-hover="Contact">Contact</a></li>
                             <div class="clearfix"></div>
                         </ul>
@@ -149,37 +149,206 @@
         </div>
         <!--/services-->
 
-        <div class="container">
-  <h2>Dynamic Tabs</h2>
-  <p>To make the tabs toggleable, add the data-toggle="tab" attribute to each link. Then add a .tab-pane class with a unique ID for every tab and wrap them inside a div element with class .tab-content.</p>
+        <!--/services-->
+        <div>
+            <div class="container">
+                <div class="mid-section">
+                    <h3 style="color:#003b64;">Cursos</h3>
+                </div>
+            </div>
+        </div>
 
-  <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-    <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
-    <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
-    <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
-  </ul>
+        <div class="news-section">
+            <div class="container">
+                <div class="news-head">
+                    <h3>Primaria</h3>
+                    <p>Mira los cursos correspondientes para Primaria</p>
+                </div>
+                <div class="news">
+                    <div class="col-md-4 test-right01 test1">
+                        <img src="images/g3.jpg" class="img-responsive" alt="" />
+                        <div class="textbox textbox1">
+                            <h4 class="col-md-4 date">1°<br>
+                                <lable><span>Primero</span><br></lable>
+                            </h4>
+                            <p class="col-md-8 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
+                            </p>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 test-right01 test1">
+                        <img src="images/g5.jpg" class="img-responsive" alt="" />
+                        <div class="textbox textbox1">
+                            <h4 class="col-md-4 date">2°<br>
+                                <lable><span>Segundo</span><br></lable>
+                            </h4>
+                            <p class="col-md-8 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
+                            </p>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 test-right01 test1">
+                        <img src="images/g2.jpg" class="img-responsive" alt="" />
+                        <div class="textbox textbox1">
+                            <h4 class="col-md-4 date">3°<br>
+                                <lable><span>Tercero</span><br></lable>
+                            </h4>
+                            <p class="col-md-8 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
+                            </p>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 test-right01 test1" style="margin-top:20px">
+                        <img src="images/g1.jpg" class="img-responsive" alt="" />
+                        <div class="textbox textbox1">
+                            <h4 class="col-md-4 date">4°<br>
+                                <lable><span>Cuarto</span><br></lable>
+                            </h4>
+                            <p class="col-md-8 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
+                            </p>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 test-right01 test1" style="margin-top:20px">
+                        <img src="images/n1.jpg" class="img-responsive" alt="" />
+                        <div class="textbox textbox1">
+                            <h4 class="col-md-4 date">5°<br>
+                                <lable><span>Quinto</span><br></lable>
+                            </h4>
+                            <p class="col-md-8 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
+                            </p>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
 
-  <div class="tab-content">
-    <div id="home" class="tab-pane fade in active">
-      <h3>HOME</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-    <div id="menu1" class="tab-pane fade">
-      <h3>Menu 1</h3>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div id="menu2" class="tab-pane fade">
-      <h3>Menu 2</h3>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-    </div>
-    <div id="menu3" class="tab-pane fade">
-      <h3>Menu 3</h3>
-      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-    </div>
-  </div>
-</div>
-        
+        <div class="news-section">
+            <div class="container">
+                <div class="news-head">
+                    <h3>Secundaria</h3>
+                    <p>Mira los cursos correspondientes para Secundaria</p>
+                </div>
+                <div class="news">
+                    <div class="col-md-4 test-right01 test1">
+                        <img src="images/g4.jpg" class="img-responsive" alt="" />
+                        <div class="textbox textbox1">
+                            <h4 class="col-md-4 date">6°<br>
+                                <lable><span>Sexto</span><br></lable>
+                            </h4>
+                            <p class="col-md-8 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
+                            </p>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 test-right01 test1">
+                        <img src="images/n3.jpg" class="img-responsive" alt="" />
+                        <div class="textbox textbox1">
+                            <h4 class="col-md-4 date">7°<br>
+                                <lable><span>Septimo</span><br></lable>
+                            </h4>
+                            <p class="col-md-8 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
+                            </p>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 test-right01 test1">
+                        <img src="images/l2.png" class="img-responsive" alt="" />
+                        <div class="textbox textbox1">
+                            <h4 class="col-md-4 date">8°<br>
+                                <lable><span>Octavo</span><br></lable>
+                            </h4>
+                            <p class="col-md-8 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
+                            </p>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 test-right01 test1" style="margin-top:20px">
+                        <img src="images/l3.png" class="img-responsive" alt="" />
+                        <div class="textbox textbox1">
+                            <h4 class="col-md-4 date">9°<br>
+                                <lable><span>Noveno</span><br></lable>
+                            </h4>
+                            <p class="col-md-8 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
+                            </p>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 test-right01 test1" style="margin-top:20px">
+                        <img src="images/l1.png" class="img-responsive" alt="" />
+                        <div class="textbox textbox1">
+                            <h4 class="col-md-4 date">10°<br>
+                                <lable><span>Decimo</span><br></lable>
+                            </h4>
+                            <p class="col-md-8 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
+                            </p>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 test-right01 test1" style="margin-top:20px">
+                        <img src="images/l4.png" class="img-responsive" alt="" />
+                        <div class="textbox textbox1">
+                            <h4 class="col-md-4 date">11°<br>
+                                <lable><span>Once</span><br></lable>
+                            </h4>
+                            <p class="col-md-8 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
+                            </p>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+
+        <!--address-->
+        <div id="contact" class="address">
+            <div class="col-md-7 address-left">
+                <div class="products">
+                    <h3>Cursos</h3>
+                    <ul>
+                        <li><a href="blog.html">Primaria</a></li>
+                        <li><a href="blog.html">Secundaria</a></li>
+                        <li><a href="blog.html">Para la vida</a></li>
+                    </ul>
+                </div>
+                <div class="company-adout">
+                    <h3>Learn</h3>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="teachers.html">Teacher</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+                <p>Creativity itself doesn't care at all about results - the only thing it craves is the process.
+                    Learn to love the process and let whatever happens next happen,<span>
+                        without fussing too much about it</span></p>
+            </div>
+            <div class="col-md-5 address-right">
+                <h3>Contactanos</h3>
+                <p>Bogota Colombia</p>
+                <ul class="bottom">
+                    <li>Office 21 4563 Cundinamarca</li>
+                    <li>00 123 456 78</li>
+                    <li><a class="mail" href="mailto:info@example.com">123 int@example.com</a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <!--//address-->
+        <!----footer--->
+        <div class="footer">
+            <div class="container">
+                <div class="copy">
+                    <p>&copy; 2019 Universidad Catolica de Colombia <a href="http://w3layouts.com/">W3layouts</a> </p>
+                </div>
+
+            </div>
+        </div>
+
         <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
         
         <script src="resources/js/jquery.min.js"></script>
