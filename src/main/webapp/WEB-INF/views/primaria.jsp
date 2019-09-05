@@ -3,14 +3,14 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Index</title>
+        <title>Primaria</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 
         <link href="<c:url value="/resources/css/bootstrap.css"/>" rel="stylesheet" >
         <link href="<c:url value="/resources/css/style.css"/>" rel="stylesheet" >
-        <script href="<c:url value="/resources/js/jquery.min.js"/>" rel="stylesheet" ></script>
+        <script src="resources/js/jquery.min.js"></script>
         <!--webfonts-->
         <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic|PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <!--//webfonts-->
@@ -31,12 +31,12 @@
                     <div class="top-menu">
                         <span class="menu"> </span>
                         <ul class="cl-effect-16">
-                            <li><a href="index.html" data-hover="Home">Home</a></li>
-                            <li><a href="about.html" data-hover="About">About</a></li>
-                            <li><a class="active" href="teachers.html" data-hover="Teachers">Teachers</a></li>
-                            <li><a href="gallery.html" data-hover="Gallery">Gallery</a></li>
-                            <li><a href="404.html" data-hover="blog">Blog</a></li>
-                            <li><a href="contact.html" data-hover="Contact">Contact</a></li>
+                            <li><a class="active" href="home" data-hover="Home">Home</a></li>
+                            <li><a  href="primaria" data-hover="Primaria">Primaria</a></li>
+                            <li><a href="secundaria" data-hover="Secundaria">Secundaria</a></li>
+                            <li><a href="becas " data-hover="Becas">Becas</a></li>
+                            <li><a href=" " data-hover="Noticias">Noticias</a></li>
+                            <li><a href=" " data-hover="Contact">Contact</a></li>
                             <div class="clearfix"></div>
                         </ul>
                     </div>
@@ -83,30 +83,26 @@
                                     <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
                                         <div class="facts">
                                             <ul class="tab_list">
-                                                <li><a href="#">It is a long established fact that a reader will be
-                                                        distracted by the readable content of a page when
-                                                        looking at its layout.</a></li>
-                                                <li><a href="#">The point of using Lorem Ipsum is that it has a more-or-less
-                                                        normal distribution
-                                                        of letters readable English</a></li>
-                                                <li><a href="#">The point of using Lorem Ipsum is that it has a more-or-less
-                                                        normal distribution
-                                                        of letters readable English</a></li>
+                                                <li class="linea-curso-titulo"><a>CURSOS DE PRIMERO</a></li>
+                                                <li class="linea-curso"><a>Ciencias de la Naturaleza</a></li>
+                                                <li><p>Las ciencias naturales abarcan todas las disciplinas científicas que se dedican al estudio de la naturaleza. Se encargan de los aspectos físicos de la realidad, a diferencia de las ciencias sociales que estudian los factores humanos.</p>
+                                                    <a href="http://aulavirtual.inaeba.edu.mx/ejercicios_practicos/paginas/ejercicios_prim_natu.html"> >> Aqui podras seguir el curso</a></li>
+                                                <li class="linea-curso"><a>Ciencias Sociales</a></li>
+                                                <li class="linea-curso"><a>Lengua Castellana y Literatura</a></li>
+                                                <li class="linea-curso"><a>Matemáticas</a></li>
+                                                <li class="linea-curso"><a>Primera Lengua Extranjera</a></li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
                                         <div class="facts">
                                             <ul class="tab_list">
-                                                <li><a href="#">The point of using Lorem Ipsum is that it has a more-or-less
-                                                        normal distribution
-                                                        of letters readable English</a></li>
-                                                <li><a href="#">It is a long established fact that a reader will be
-                                                        distracted by the readable content of a page when
-                                                        looking at its layout.</a></li>
-                                                <li><a href="#">The point of using Lorem Ipsum is that it has a more-or-less
-                                                        normal distribution
-                                                        of letters readable English</a></li>
+                                                <li class="linea-curso-linea-curso-titulo"><a>CURSOS DE SECUNDARIA</a></li>
+                                                <li class="linea-curso"><a>Ciencias de la Naturaleza</a></li>
+                                                <li class="linea-curso"><a>Ciencias Sociales</a></li>
+                                                <li class="linea-curso"><a>Lengua Castellana y Literatura</a></li>
+                                                <li class="linea-curso"><a>Matemáticas</a></li>
+                                                <li class="linea-curso"><a>Primera Lengua Extranjera</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -166,7 +162,7 @@
             </div>
         </div>
 
-        <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+        <script src="resources/js/easyResponsiveTabs.js" type="text/javascript"></script>
         <script type="text/javascript">
                         $(document).ready(function () {
                             $('#horizontalTab').easyResponsiveTabs({
@@ -181,9 +177,8 @@
         <div class="footer">
             <div class="container">
                 <div class="copy">
-                    <p>&copy; 2015 All Rights Reserved Design by <a href="http://w3layouts.com/">W3layouts</a> </p>
+                    <p>&copy; 2019 Universidad Catolica de Colombia <a href="">Taller Arquitectura</a> </p>
                 </div>
-
             </div>
         </div>
         <!--start-smoth-scrolling-->
@@ -214,13 +209,6 @@
         <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;">
             </span></a>
 
-
-
-    <script src="resources/js/jquery.min.js"></script>
-    <script src="resources/js/responsiveslides.min.js"></script>
-    <script src="resources/js/easyResponsiveTabs.js"></script>
-    <script src="resources/js/jquery.swipebox.min.js"></script>
-    <script src="resources/js/app.js"></script>
 </body>
 
 </html>

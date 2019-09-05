@@ -21,13 +21,13 @@
             <div class="top-header">
                 <div class="container">
                     <div class="logo">
-                        <a href="home"><h1>Meta<span>Educativa</span></h1></a>
+                        <a href="home" style="text-decoration: none"><h1>Meta<span>Educativa</span></h1></a>
                     </div>
                     <div class="top-menu">
                         <span class="menu"> </span>
                         <ul class="cl-effect-16">
                             <li><a class="active" href="home" data-hover="Home">Home</a></li>
-                            <li><a  href="Primaria" data-hover="Primaria">Primaria</a></li>
+                            <li><a  href="primaria" data-hover="Primaria">Primaria</a></li>
                             <li><a href="secundaria" data-hover="Secundaria">Secundaria</a></li>
                             <li><a href="becas " data-hover="Becas">Becas</a></li>
                             <li><a href=" " data-hover="Noticias">Noticias</a></li>
@@ -114,7 +114,7 @@
                             <i class="book"> </i>
                         </div>
                         <div class="icon-text">
-                            <h4>BOOKS STATIONARY</h4>
+                            <h4>LECTURAS DE ESTUDIO</h4>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
                         </div>
                         <div class="clearfix"> </div>
@@ -124,7 +124,7 @@
                             <i class="pencil"> </i>
                         </div>
                         <div class="icon-text">
-                            <h4>BOOKS STATIONARY</h4>
+                            <h4>TALLERES</h4>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
                         </div>
                         <div class="clearfix"> </div>
@@ -134,7 +134,7 @@
                             <i class="award"> </i>
                         </div>
                         <div class="icon-text">
-                            <h4>Lorem Ipsum dolor</h4>
+                            <h4>SOCIALIZA</h4>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
                         </div>
                         <div class="clearfix"> </div>
@@ -154,6 +154,7 @@
             <div class="container">
                 <div class="mid-section">
                     <h3 style="color:#003b64;">Cursos</h3>
+                    <div style="width:100%; height: 2px; background:#003b64"></div>
                 </div>
             </div>
         </div>
@@ -162,60 +163,65 @@
             <div class="container">
                 <div class="news-head">
                     <h3>Primaria</h3>
-                    <p>Mira los cursos correspondientes para Primaria</p>
+                    <p>Mira las materias correspondientes para Primaria</p>
                 </div>
                 <div class="news">
                     <div class="col-md-4 test-right01 test1">
-                        <img src="images/g3.jpg" class="img-responsive" alt="" />
+                        <img src="resources/images/g3.jpg" class="img-responsive" alt="" />
                         <div class="textbox textbox1">
                             <h4 class="col-md-4 date">1°<br>
                                 <lable><span>Primero</span><br></lable>
                             </h4>
-                            <p class="col-md-8 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
+                            <p class="col-md-7 news">
+                                                <li>Ciencias de la Naturaleza</li>
+                                                <li>Ciencias Sociales</li>
+                                                <li>Lengua Castellana y Literatura</li>
+                                                <li>Matemáticas/li>
+                                                <li>Primera Lengua Extranjera</li>
                             </p>
                             <div class="clearfix"> </div>
                         </div>
                     </div>
                     <div class="col-md-4 test-right01 test1">
-                        <img src="images/g5.jpg" class="img-responsive" alt="" />
+                        <img src="resources/images/g5.jpg" class="img-responsive" alt="" />
                         <div class="textbox textbox1">
                             <h4 class="col-md-4 date">2°<br>
                                 <lable><span>Segundo</span><br></lable>
                             </h4>
-                            <p class="col-md-8 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
+                            <p class="col-md-7 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
                             </p>
                             <div class="clearfix"> </div>
                         </div>
                     </div>
                     <div class="col-md-4 test-right01 test1">
-                        <img src="images/g2.jpg" class="img-responsive" alt="" />
+                        <img src="resources/images/g2.jpg" class="img-responsive" alt="" />
                         <div class="textbox textbox1">
                             <h4 class="col-md-4 date">3°<br>
                                 <lable><span>Tercero</span><br></lable>
                             </h4>
-                            <p class="col-md-8 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
+                            <p class="col-md-7 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
                             </p>
                             <div class="clearfix"> </div>
                         </div>
                     </div>
                     <div class="col-md-4 test-right01 test1" style="margin-top:20px">
-                        <img src="images/g1.jpg" class="img-responsive" alt="" />
+                        <img src="resources/images/g1.jpg" class="img-responsive" alt="" />
                         <div class="textbox textbox1">
                             <h4 class="col-md-4 date">4°<br>
                                 <lable><span>Cuarto</span><br></lable>
                             </h4>
-                            <p class="col-md-8 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
+                            <p class="col-md-7 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
                             </p>
                             <div class="clearfix"> </div>
                         </div>
                     </div>
                     <div class="col-md-4 test-right01 test1" style="margin-top:20px">
-                        <img src="images/n1.jpg" class="img-responsive" alt="" />
+                        <img src="resources/images/n1.jpg" class="img-responsive" alt="" />
                         <div class="textbox textbox1">
                             <h4 class="col-md-4 date">5°<br>
                                 <lable><span>Quinto</span><br></lable>
                             </h4>
-                            <p class="col-md-8 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
+                            <p class="col-md-7 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
                             </p>
                             <div class="clearfix"> </div>
                         </div>
@@ -233,67 +239,67 @@
                 </div>
                 <div class="news">
                     <div class="col-md-4 test-right01 test1">
-                        <img src="images/g4.jpg" class="img-responsive" alt="" />
+                        <img src="resources/images/g4.jpg" class="img-responsive" alt="" />
                         <div class="textbox textbox1">
                             <h4 class="col-md-4 date">6°<br>
                                 <lable><span>Sexto</span><br></lable>
                             </h4>
-                            <p class="col-md-8 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
+                            <p class="col-md-7 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
                             </p>
                             <div class="clearfix"> </div>
                         </div>
                     </div>
                     <div class="col-md-4 test-right01 test1">
-                        <img src="images/n3.jpg" class="img-responsive" alt="" />
+                        <img src="resources/images/n3.jpg" class="img-responsive" alt="" />
                         <div class="textbox textbox1">
                             <h4 class="col-md-4 date">7°<br>
                                 <lable><span>Septimo</span><br></lable>
                             </h4>
-                            <p class="col-md-8 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
+                            <p class="col-md-7 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
                             </p>
                             <div class="clearfix"> </div>
                         </div>
                     </div>
                     <div class="col-md-4 test-right01 test1">
-                        <img src="images/l2.png" class="img-responsive" alt="" />
+                        <img src="resources/images/l2.png" class="img-responsive" alt="" />
                         <div class="textbox textbox1">
                             <h4 class="col-md-4 date">8°<br>
                                 <lable><span>Octavo</span><br></lable>
                             </h4>
-                            <p class="col-md-8 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
+                            <p class="col-md-7 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
                             </p>
                             <div class="clearfix"> </div>
                         </div>
                     </div>
                     <div class="col-md-4 test-right01 test1" style="margin-top:20px">
-                        <img src="images/l3.png" class="img-responsive" alt="" />
+                        <img src="resources/images/l3.png" class="img-responsive" alt="" />
                         <div class="textbox textbox1">
                             <h4 class="col-md-4 date">9°<br>
                                 <lable><span>Noveno</span><br></lable>
                             </h4>
-                            <p class="col-md-8 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
+                            <p class="col-md-7 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
                             </p>
                             <div class="clearfix"> </div>
                         </div>
                     </div>
                     <div class="col-md-4 test-right01 test1" style="margin-top:20px">
-                        <img src="images/l1.png" class="img-responsive" alt="" />
+                        <img src="resources/images/l1.png" class="img-responsive" alt="" />
                         <div class="textbox textbox1">
                             <h4 class="col-md-4 date">10°<br>
                                 <lable><span>Decimo</span><br></lable>
                             </h4>
-                            <p class="col-md-8 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
+                            <p class="col-md-7 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
                             </p>
                             <div class="clearfix"> </div>
                         </div>
                     </div>
                     <div class="col-md-4 test-right01 test1" style="margin-top:20px">
-                        <img src="images/l4.png" class="img-responsive" alt="" />
+                        <img src="resources/images/l4.png" class="img-responsive" alt="" />
                         <div class="textbox textbox1">
                             <h4 class="col-md-4 date">11°<br>
                                 <lable><span>Once</span><br></lable>
                             </h4>
-                            <p class="col-md-8 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
+                            <p class="col-md-7 news">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit...
                             </p>
                             <div class="clearfix"> </div>
                         </div>
@@ -305,21 +311,21 @@
 
         <!--address-->
         <div id="contact" class="address">
-            <div class="col-md-7 address-left">
+            <div class="col-md-6 address-left">
                 <div class="products">
                     <h3>Cursos</h3>
                     <ul>
-                        <li><a href="blog.html">Primaria</a></li>
-                        <li><a href="blog.html">Secundaria</a></li>
-                        <li><a href="blog.html">Para la vida</a></li>
+                        <li><a href="primaria">Primaria</a></li>
+                        <li><a href="secundaria">Secundaria</a></li>
+                        <li><a href="">Para la vida</a></li>
                     </ul>
                 </div>
                 <div class="company-adout">
                     <h3>Learn</h3>
                     <ul>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="teachers.html">Teacher</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="primaria">Primary</a></li>
+                        <li><a href="secundaria">Secundary</a></li>
+                        <li><a href="">To life</a></li>
                     </ul>
                 </div>
                 <div class="clearfix"></div>
@@ -327,7 +333,7 @@
                     Learn to love the process and let whatever happens next happen,<span>
                         without fussing too much about it</span></p>
             </div>
-            <div class="col-md-5 address-right">
+            <div class="col-md-6 address-right">
                 <h3>Contactanos</h3>
                 <p>Bogota Colombia</p>
                 <ul class="bottom">

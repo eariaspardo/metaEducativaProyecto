@@ -523,7 +523,7 @@ overflow:hidden;
  font-size: 0.9em;
   color: #fff;
   text-align: left;
-  padding-top: 6.5em;
+  padding-top: 4em;
 }
 .textbox h4 {
    font-size: 2em;
@@ -834,8 +834,7 @@ lable.one {
   margin-right: 1%;
   color: #fff;
   padding: 14px 1px 0px 18px;
-  background: #003b64;
-  margin-top: 1.4%;  
+  background: #003b64; 
   border-radius: 50%;
   -o-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1763,7 +1762,7 @@ i.net{
 	.textbox h4 {
 	  font-size: 1.5em;
 	  text-align: center;
-	  padding-top: 3.5em;
+	  padding-top: 1.5em;
 	}
 	.slider-top {
 	  width: 61%;
@@ -3063,4 +3062,13 @@ i.net{
 	  font-size: 0.8em;
 	}
 
+}
+
+.linea-curso-titulo{
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.linea-curso{
+    border-bottom: 1px solid #c0c0c0;
+    width: 50%;
 }

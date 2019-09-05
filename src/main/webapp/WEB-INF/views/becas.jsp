@@ -29,7 +29,7 @@
                         <span class="menu"> </span>
                         <ul class="cl-effect-16">
                             <li><a class="active" href="home" data-hover="Home">Home</a></li>
-                            <li><a  href="Primaria" data-hover="Primaria">Primaria</a></li>
+                            <li><a  href="primaria" data-hover="Primaria">Primaria</a></li>
                             <li><a href="secundaria" data-hover="Secundaria">Secundaria</a></li>
                             <li><a href="becas " data-hover="Becas">Becas</a></li>
                             <li><a href=" " data-hover="Noticias">Noticias</a></li>
@@ -55,107 +55,34 @@
         <div class="history">
             <div class="container">
                 <div class="history-head">
-                    <h3>Our History</h3>
-                    <p>A Few words about us</p>
+                    <h3>La importancia de Estudiar</h3>
+                    <p>Mejora tu futuro</p>
                 </div>
-                <div class="history-faq-grids">
-                    <div class="col-md-6 history-faq-grid">
-                        <h4>Our History</h4>
-                        <div class="sap_tabs">	
-                            <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
-                                <ul class="resp-tabs-list">
-                                    <li class="resp-tab-item grid1" aria-controls="tab_item-0" role="tab"><span>2011</span></li>
-                                    <li class="resp-tab-item grid2" aria-controls="tab_item-1" role="tab"><span>2012</span></li>
-                                    <li class="resp-tab-item grid3" aria-controls="tab_item-2" role="tab"><span>2013</span></li>
-                                    <li class="resp-tab-item grid4" aria-controls="tab_item-3" role="tab"><span>2014</span></li>
-                                    <li class="resp-tab-item grid5" aria-controls="tab_item-4" role="tab"><span>2015</span></li>
-                                    <div class="clear"></div>
-                                </ul>				  	 
-                                <div class="resp-tabs-container">
-                                    <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
-                                        <div class="facts">
-                                            <ul class="tab_list">
-                                                <li><a href="#">It is a long established fact that a reader will be distracted by the readable content of a page when 
-                                                        looking at its layout.</a></li>
-                                                <li><a href="#">The point of using Lorem Ipsum is that it has a more-or-less normal distribution 
-                                                        of letters readable English</a></li>
-                                                <li><a href="#">The point of using Lorem Ipsum is that it has a more-or-less normal distribution 
-                                                        of letters readable English</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
-                                        <div class="facts">
-                                            <ul class="tab_list">
-                                                <li><a href="#">The point of using Lorem Ipsum is that it has a more-or-less normal distribution 
-                                                        of letters readable English</a></li>
-                                                <li><a href="#">It is a long established fact that a reader will be distracted by the readable content of a page when 
-                                                        looking at its layout.</a></li>
-                                                <li><a href="#">The point of using Lorem Ipsum is that it has a more-or-less normal distribution 
-                                                        of letters readable English</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
-                                        <div class="facts">
-                                            <ul class="tab_list">
-                                                <li><a href="#">It is a long established fact that a reader will be distracted by the readable content of a page when 
-                                                        looking at its layout.</a></li>
-                                                <li><a href="#">The point of using Lorem Ipsum is that it has a more-or-less normal distribution 
-                                                        of letters readable English</a></li>
-                                                <li><a href="#">The point of using Lorem Ipsum is that it has a more-or-less normal distribution 
-                                                        of letters readable English</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
-                                        <div class="facts">
-                                            <ul class="tab_list">
-                                                <li><a href="#">The point of using Lorem Ipsum is that it has a more-or-less normal distribution 
-                                                        of letters readable English</a></li>
-                                                <li><a href="#">It is a long established fact that a reader will be distracted by the readable content of a page when 
-                                                        looking at its layout.</a></li>
-                                                <li><a href="#">The point of using Lorem Ipsum is that it has a more-or-less normal distribution 
-                                                        of letters readable English</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-4">
-                                        <div class="facts">
-                                            <ul class="tab_list">
-                                                <li><a href="#">It is a long established fact that a reader will be distracted by the readable content of a page wlooking at its layout.</a></li>
-                                                <li><a href="#">The point of using Lorem Ipsum is that it has a more-or-less normal distribution 
-                                                        of letters readable English</a></li>
-                                                <li><a href="#">The point of using Lorem Ipsum is that it has a more-or-less normal distribution 
-                                                        of letters readable English</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-md-6 history-text-grid">
-                        <h4>Achivements</h4>
+                <div class="history-faq-grids">                 
+                    <div class="col-md-10 history-text-grid">
+                        <h4>Noticias</h4>
                         <div class="achiv">
                             <lable class="one">1.</lable>
-                            <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p class="para" style="font-size:20px;">¿Cómo hacer un posgrado en el exterior? Colfuturo se lo explica 
+                                <a href="https://www.eltiempo.com/vida/educacion/colfuturo-realizara-una-gira-nacional-para-explicar-como-hacer-un-posgrado-en-el-exterior-404244">saber mas ...</a></p>                        
                             <div class="clearfix"> </div>
                         </div>
                         <div class="achiv">
                             <lable class="one">2.</lable>
-                            <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p class="para" style="font-size:20px;">¿Es médico y quiere especializarse? Esta convocatoria le interesa
+                            <a href="https://www.eltiempo.com/vida/educacion/icetex-abre-convocatoria-para-medicos-que-quieren-especializarse-407872">saber mas ...</a></p>                           
                             <div class="clearfix"> </div>
                         </div>
                         <div class="achiv">
                             <lable class="one">3.</lable>
-                            <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p class="para" style="font-size:20px;">Hay vacantes para colombianos que quieran trabajar y estudiar en Canadá
+                            <a href="https://www.semana.com/educacion/articulo/canada-busca-colombianos-para-trabajar-y-estudiar/624851">saber mas ...</a></p>                           
                             <div class="clearfix"> </div>
                         </div>
                         <div class="achiv">
                             <lable class="one">4.</lable>
-                            <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p class="para" style="font-size:20px;">Nuevo programa de becas de economía naranja para estudiar en España
+                            <a href="https://www.semana.com/educacion/articulo/becas-de-la-fundacion-carolina-y-el-icetex-para-estudiar-en-espana/617350">saber mas ...</a></p>                           
                             <div class="clearfix"> </div>
                         </div>
                         <div class="clearfix"> </div>

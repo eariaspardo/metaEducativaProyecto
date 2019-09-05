@@ -22,18 +22,6 @@
                     <div class="logo">
                         <a href="home"><h1>Meta<span>Educativa</span></h1></a>
                     </div>
-                    <div class="top-menu">
-                        <span class="menu"> </span>
-                        <ul class="cl-effect-16">
-                            <li><a class="active" href="home" data-hover="Home">Home</a></li>
-                            <li><a  href=" " data-hover="Curso">Curso</a></li>
-                            <li><a href="becas" data-hover="Becas">Becas</a></li>
-                            <li><a href=" " data-hover="Noticias">Noticias</a></li>
-                            <!--<li><a href="404.html" data-hover="blog">Noticias</a></li>-->
-                            <li><a href=" " data-hover="Contact">Contact</a></li>
-                            <div class="clearfix"></div>
-                        </ul>
-                    </div>
                     <!-- script-for-menu -->
                     <!-- script-for-menu -->
                     <div class="clearfix"> </div>
