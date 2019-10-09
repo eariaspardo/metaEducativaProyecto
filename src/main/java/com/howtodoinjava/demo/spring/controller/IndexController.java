@@ -5,6 +5,7 @@
  */
 package com.howtodoinjava.demo.spring.controller;
 
+import java.security.Principal;
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
@@ -24,14 +25,14 @@ public class IndexController {
      * Simply selects the home view to render by returning its name.
      */
     @RequestMapping(value = "/", method = RequestMethod.GET)
-    public String index(Locale locale, Model model) {
+    public String index(Locale locale, Model model, Principal principal) {
         
         Date date = new Date();
         DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
         
         String formattedDate = dateFormat.format(date);
 
-        model.addAttribute("serverTime", formattedDate );
+        model.addAttribute("message", "Haz ingresado como : " + principal.getName());
 
         return "index";
     }

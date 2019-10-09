@@ -20,7 +20,7 @@
             <div class="top-header">
                 <div class="container">
                     <div class="logo">
-                        <a href="home"><h1>Meta<span>Educativa</span></h1></a>
+                        <a href="home"><h2>${message}</h2></a>
                     </div>
                     <!-- script-for-menu -->
                     <!-- script-for-menu -->
